@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_update_student"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etUpdateFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="نام" />
+
+    <EditText
+        android:id="@+id/etUpdateLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="نام خانوادگی"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/etUpdateNationalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="کد ملی"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnUpdateStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="آپدیت"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
